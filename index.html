@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>chrns. Personal Page</title>
+  <link rel="shortcut icon" href="./assets/images/icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <main>
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/avatar.jpg" alt="Alex Tarasov" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Alex Tarasov">Alex Tarasov</h1>
+
+          <p class="title">Embedded System Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:alex@chrns.com" class="contact-link">alex@chrns.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Boston, Massachusetts, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/prime.leonard/" class="social-link">
+              <img src="./assets/images/facebook_icon.svg"></img>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://t.me/chrns" class="social-link">
+              <img src="./assets/images/telegram_icon.svg"></img>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/lnrdprime/" class="social-link">
+              <img src="./assets/images/instagram_icon.svg"></img>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/chrns/" class="social-link">
+              <img src="./assets/images/linkedin_icon.svg"></img>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <div class="main-content">
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a class="navbar-link" data-nav-link href="./assets/files/tarasovad_cv.pdf">&#128195; PDF</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <article class="about active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hi! My name is Alex, I am tech enthusiast and motivated embedded software and hardware engineer
+            with 9+ years of experience in developing and deploying innovative embedded systems.
+            Expertise in designing custom hardware, firmware development, and leading
+            cross-functional teams. Proven track record in Industrial IoT, UAV systems,
+            and smart devices.
+          </p>
+        </section>
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I do</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/hardware.svg" alt="Hardware design icon" width="70">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Device Design</h4>
+
+                <p class="service-item-text">
+                  Design devices from schematic and PCB layout to prototype production.
+                  Carefully choose BOM, test, and troubleshoot.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/firmware.svg" alt="Firmware development icon" width="70">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Firmware/Software</h4>
+
+                <p class="service-item-text">
+                  Develop firmware for microcontrollers, software for SBCs, as well as
+                  debugging utilities and microservises for servers.
+                </p>
+              </div>
+
+            </li>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <header>
+          <a href="./assets/files/tarasovad_cv.pdf" class="h2 article-title">Resume</a>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Hardware & Firmware Developer for Aviation, W-Electronic Technology</h4>
+
+              <span>2022 — 2024</span>
+
+              <p class="timeline-text">
+                Designed and debugged devices for jet-powered UAVs, including:
+                <p class="timeline-text">
+                  - 1Gbps Ethernet switches, custom flight controllers, and pitot differential pressure sensors.
+                </p>
+                <p class="timeline-text">
+                  - CAN-enabled navigation modules (GNSS, magnetometer) and programmable buck-boost converters.
+                </p>
+                <p class="timeline-text">
+                  - BMS modules with USB Power Delivery and flex PCBs for embedded electronics.
+                </p>
+              </p>
+              <p class="timeline-text">
+                Delivered projects for external clients, including:
+                <p class="timeline-text">
+                  - LTE-M/NB-IoT GNSS tracker for Serbian Telecom.
+                </p>
+                <p class="timeline-text">
+                  - Smart lock devices for a Dutch client.
+                </p>
+              </p>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Team Lead & Embedded System Engineer, Service-Gazification</h4>
+
+              <span>2019 — 2024</span>
+
+              <p class="timeline-text">
+                - Led a team of five developers to create IIoT devices for oil and gas facilities (Amur and Omsk GPZ). 
+              </p>
+              <p class="timeline-text">
+                - Developed a custom encrypted LoRa-based protocol supporting 22,000 devices over 10 sq. km.
+              </p>
+              <p class="timeline-text">
+                - Designed ARM-based Base Stations with UPS, 5G modems, SCADA integration, and multi-channel LoRa modules.
+              </p>
+              <p class="timeline-text">
+                - Deployed an indoor positioning system achieving ~0.5m accuracy with UWB technology.
+              </p>
+              <p class="timeline-text">
+                - Collaborated with cloud teams to transition monolithic architecture to microservices.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Embedded System Engineer, Aerostart</h4>
+
+              <span>2015 — 2017</span>
+
+              <p class="timeline-text">
+                - Developed gyro-stabilized systems for onboard camera units using NVIDIA Jetson TK1.
+              </p>
+              <p class="timeline-text">
+                - Built firmware and conducted field tests on Cessna planes for powerline detection and inspection.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Hardware & On-Device Engineer, anki.co Startup</h4>
+
+              <span>2015 — 2016</span>
+
+              <p class="timeline-text">
+                - Designed and brought to market automatic plant-watering and pet-feeding devices with cloud connectivity. 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Embedded System Engineer, Exetech</h4>
+
+              <span>2015 — 2019</span>
+
+              <p class="timeline-text">
+                - Designed HVAC controllers for server rooms and production processes, including casing molding and equipment calibration. 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Embedded System Engineer, Freelance</h4>
+
+              <span>2010 — Present</span>
+
+              <p class="timeline-text">
+                Delivered hardware and firmware prototypes, including:
+                <p class="timeline-text">
+                  - Autonomous lighting systems for government river and sea administration.
+                </p>
+                <p class="timeline-text">
+                  - Control systems for vending machines, industrial inverters, and high-power furnaces.
+                </p>
+                <p class="timeline-text">
+                  - Battery chargers, SCADA-integrated solutions, and custom RISC-V HAL libraries.
+                </p>
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Postgraduate, Ural Federal University</h4>
+
+              <span>2015 — 2019</span>
+
+              <p class="timeline-text">
+                Electrical & Electromechanical Engineering 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Master's, Ural Federal University</h4>
+
+              <span>2012 — 2014</span>
+
+              <p class="timeline-text">
+                Signal & Image Processing in Radio Systems 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bachelor's, Ural Federal University</h4>
+
+              <span>2008 — 2012</span>
+
+              <p class="timeline-text">
+                Electrical & Electromechanical Engineering
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <!--
+          - VOLUNTEER/PUBLIC DOMAIN WORK
+        -->
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="ribbon-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Volunteer/Public domain work</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Book "Highway to Shell"</h4>
+
+              <span>2025</span>
+
+              <p class="timeline-text">
+                A 100-page compact book on Linux Command Line
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Book "C for Embedded Systems"</h4>
+
+              <span>2018</span>
+
+              <p class="timeline-text">
+                A 300-page book on embedded systems programming
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Founder of Hardware Engineering Club</h4>
+
+              <span>2014 — 2016</span>
+
+              <p class="timeline-text">
+                Led extracurricular activities in robotics, PCB manufacturing, and computer vision.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Course Creator</h4>
+
+              <span>2017</span>
+
+              <p class="timeline-text">
+                Developed practice-oriented courses for IoT, STM32, and modern embedded system programming.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">IEEE Conference Reviewer</h4>
+
+              <span>2017 — 2025</span>
+
+              <p class="timeline-text">
+                IEEE Ural-Siberian Biomedical Conference
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Mini-Course Author</h4>
+
+              <span>2018 — 2020</span>
+
+              <p class="timeline-text">
+                Delivered EU student workshops on IoT, computer vision, and driverless cars. 
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <div class="title-wrapper">
+            <h5 class="h5">Programming:</h5>
+            <data>C/C++, Python, Go, Bash, Git, CMake</data>
+          </div>
+
+          <div class="title-wrapper">
+            <h5 class="h5">Embedded Systems:</h5>
+            <data>STM8, STM32, nRF52, nRF9160, BareMetal, FreeRTOS, Zephyr, ChibiOS</data>
+          </div>
+
+          <div class="title-wrapper">
+            <h5 class="h5">Hardware Design:</h5>
+            <data>KiCAD, Altium, Flex PCBs, ARM-based designs</data>
+          </div>
+
+          <div class="title-wrapper">
+            <h5 class="h5">Networking & Communication:</h5>
+            <data>LoRa/LoRaWAN, UWB, BLE, Sub-GHz, CAN, MODBUS, RS485</data>
+          </div>
+
+          <div class="title-wrapper">
+            <h5 class="h5">Platforms & Tools:</h5>
+            <data>Embedded Linux, SCADA integration, GPRS, GNSS, USB Power Delivery</data>
+          </div>
+
+        </section>
+
+        <section class="skill">
+          <h3 class="h3 skills-title">Languages I speak</h3>
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Russian</h5>
+                <data value="100">Native</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 100%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">English</h5>
+                <data value="90">C1</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Spanish</h5>
+                <data value="10">A1</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 10%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <script src="./assets/js/script.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
